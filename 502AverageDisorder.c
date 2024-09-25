@@ -32,16 +32,19 @@ int main(void)
     if (Nlv > 10 || Nf > 10 || Nm > 10 || Np > 10) {
         printf("Il y a au moins une note supérieure à 10");
     }
-    if (Nlv > 10 && Nf > 10 && Nm > 10 && Np > 10) {printf("Toutes les notes sont superieurs à 10");
+    if (Nlv > 10 && Nf > 10 && Nm > 10 && Np > 10) {
+        printf("Toutes les notes sont superieurs à 10");
 
     }
     moyenneS = (Nm + Np)/2;
     moyenneL = (Nlv + Nf)/2;
 
-    if (moyenneL == 10 || moyenneS == 10) {printf("La moyenne (10) est obtenue pour l’un des deux types (littéraire et scientifique)");
+    if (moyenneL == 10 || moyenneS == 10) {
+        printf("La moyenne (10) est obtenue pour l’un des deux types (littéraire et scientifique)");
         
     }
-    if (moyenneG >= 10 && moyenneL == 10 || moyenneS == 10) {printf("La moyenne des quatre notes, moyenneG, est supérieure ou égale à 10 et la moyenne (10) est obtenue pour l’un des deux types");
+    if (moyenneG >= 10 && moyenneL == 10 || moyenneS == 10) {
+        printf("La moyenne des quatre notes, moyenneG, est supérieure ou égale à 10 et la moyenne (10) est obtenue pour l’un des deux types");
 
         
     }
