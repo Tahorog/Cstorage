@@ -1,5 +1,7 @@
 //Exercice 602
+#include <stdio.h>
 
+int main(void) {
        int entier_1, entier_2, entier_3;
        printf("Entrez trois entiers : \n");
        scanf("%d %d %d", &entier_1, &entier_2, &entier_3);
@@ -12,3 +14,5 @@
        else {
            printf("Tous les entiers saisis sont differents.\n");
        }
+return 0;
+}
