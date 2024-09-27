@@ -22,4 +22,5 @@ int main(void) {
        else {
            printf("L'entier saisi n'est pas un multiple de 5 et est inferieur a -3.\n");
        }
+      return 0;
 }
