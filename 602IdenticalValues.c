@@ -8,7 +8,7 @@ int main(void) {
        if (entier_1 == entier_2 == entier_3) {
            printf("Tous les entiers saisis sont identiques.\n");
        }
-       else if ((entier_1 == entier_2 && entier_3 != entier_1) || (entier_3 == entier_1 && entier_2 != entier_1)) {
+       else if ((entier_1 == entier_2 && entier_3 != entier_1) || (entier_3 == entier_1 && entier_2 != entier_1) || (entier_1 != entier_2 && entier_2 == entier_3)) {
            printf("Seuls deux des trois entiers sont identiques.\n");
        }
        else {
