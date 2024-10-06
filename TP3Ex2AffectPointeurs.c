@@ -1,15 +1,16 @@
 #include <stdio.h>
 
 int main(void) {
-    
-    //Exercice 2
+
+    //Exercice 902
 
     printf("\n");
 
     int val1;
-    char val2, lettre;
-    int* pt1;
     unsigned char val2;
+    char lettre;
+    int* pt1;
+    unsigned char* pt2;
     char* pt3;
 
     pt1 = &val1;
@@ -17,13 +18,13 @@ int main(void) {
     pt3 = &lettre;
 
     int** ppt1;
-    char** ppt2;
+    unsigned char** ppt2;
     char** ppt3;
 
     ppt1 = &pt1;
     ppt2 = &pt2;
     ppt3 = &pt3;
-    
+
 
     val1 = 10;
     val2 = 'e';
