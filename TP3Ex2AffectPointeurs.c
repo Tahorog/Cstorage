@@ -9,7 +9,8 @@ int main(void) {
     int val1;
     char val2, lettre;
     int* pt1;
-    char* pt2, * pt3;
+    unsigned char val2;
+    char* pt3;
 
     pt1 = &val1;
     pt2 = &val2;
