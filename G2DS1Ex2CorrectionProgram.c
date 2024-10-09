@@ -1,5 +1,4 @@
 #include <stdio.h>
-//fais par dimitri et paul 100% et sans aide, toute similitude est une coincidence fortuite, ce code est unique et breveté...
 int main() {
     int hauteur;
     
