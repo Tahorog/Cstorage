@@ -7,7 +7,7 @@ int main(void) {
 
     while(1) {
         printf("%dh%d\n",h,m);
-        sleep(1);
+        sleep(60);
         m=updatem(m);
         h=updateh(m,h);
     }
