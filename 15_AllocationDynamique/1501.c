@@ -27,7 +27,8 @@ int main(void) {
 
     char *phrase = truc();
 
-    printf("%s\n", phrase);
+    printf("%s", phrase);
 
+    free(phrase);
     return 0;
 }
