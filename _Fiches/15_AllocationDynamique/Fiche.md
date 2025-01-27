@@ -3,7 +3,7 @@
 - Reserve une certaine taille dans la mémoire, précisée en argument
 
 ## Paramètres : 
-malloc(<taille>)
+malloc(\<taille>)
 - taille de la mémoire à reserver (en octets)
 
 ## Utilisation :
