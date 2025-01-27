@@ -41,4 +41,20 @@ if (entiers == NULL){ // gestion des erreurs
 }
 ```
 
+# Realloc
+## C quoi ?
+- Permet de réallouer un bloc de mémoire alloué dynamiquement
+
+## Paramètres : 
+realloc(\<pointeur>,<nouvelle_taille>)
+- Pointeur vers le bloc alloué dynamiquement
+- nouvelle taille à reserver dans la mémoire (en octets)
+
+## Utilisation :
+```c
+int* entiers = (int*) malloc(10 * sizeof(int)); //crée un tableau de 10 entiers
+
+entiers = realloc(entiers, 20 * sizeof(int)); //transforme en un tableau de 20 entiers
+```
+
 
