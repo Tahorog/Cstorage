@@ -105,12 +105,13 @@ void ajouter(int * taille,int **tableau,int nombre) {
 int main() {
     int taille;
 
+    //demande à l'utilisateur la taille du tableau
     printf("taille du tableau: ");
     scanf("%d",&taille);
 
     int* entiers = (int*) malloc(taille * sizeof(int)); //crée un tableau de taille donnée
 
-    if (entiers == NULL) {
+    if (entiers == NULL) { //gestion des erreurs
         printf("erreur\n");
         exit(-1);
     }
@@ -118,9 +119,9 @@ int main() {
     remplir(taille,entiers);
     afficher(taille,entiers);
 
-    ajouter(&taille,&entiers,3);
+    ajouter(&taille,&entiers,3); // ajoute l'entier 3 à la fin du tableau (redimensionné)
 
-    afficher(taille,entiers);
+    afficher(taille,entiers); // affiche le nouveau tableau
 
     free(entiers); // libérer la mémoire dynamique
     return 0;
