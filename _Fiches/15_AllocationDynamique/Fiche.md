@@ -1,3 +1,7 @@
+#/======================\
+#| Allocation Dynamique |
+#\======================/
+
 # Malloc
 ## C quoi ?
 - Reserve une certaine taille dans la mémoire, précisée en argument
