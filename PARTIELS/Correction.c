@@ -6,7 +6,7 @@
 #include <string.h>
 #include <time.h>
 
-#define TAILLE 3
+#define TAILLE 40
 
 typedef struct {
     float *notes;
