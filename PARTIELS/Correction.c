@@ -1,6 +1,8 @@
 // Ceci est une proposition de correction non officielle,
 // N'hésitez pas a reporter les bugs ou erreurs, ou à demander de l'aide sur discord
 
+// Pas encore commenté déso 
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
