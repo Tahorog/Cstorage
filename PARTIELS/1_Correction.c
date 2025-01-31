@@ -54,7 +54,7 @@ void completer_etudiant(Etudiant * etudiant) {
     for (int i = 0; i < etudiant->taille; i++) {
         etudiant->moy += etudiant->notes[i];
     }
-    etudiant->moy /= etudiant->taille;
+    etudiant->moy /= (float)(etudiant->taille);
 
     printf("\n%s\nnotes (%d) :\n", etudiant->nom,etudiant->taille);
     for (int i = 0; i < etudiant->taille; i++) {
